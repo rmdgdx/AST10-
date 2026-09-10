@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Outcomes-based course syllabus for ASTBIO 201 Astrobiology, Rizal Technological University.">
+<meta name="author" content="Dr. Ryan Manuel D. Guido">
+<title>Course Syllabus · ASTBIO 201 Astrobiology · RTU</title>
+<style>
+:root{
+  --royal:#1F4FA8; --royal-2:#2A5BB8; --royal-3:#3A6FD1; --royal-ink:#0B1F47; --royal-deep:#12306B;
+  --royal-soft:#DCE6F6; --royal-pale:#F1F5FC; --royal-line:#C5D3EE;
+  --neon:#39FF14; --neon-2:#7CFF5B; --neon-ink:#0E6B1F; --neon-soft:#E8FFE0; --neon-line:#9BF07F;
+  --neon-grad:linear-gradient(135deg,#7CFF5B,#39FF14);
+  --ok:#1f7a46; --ok-bg:#e2f4ea; --no:#b3261e; --no-bg:#fde7e9;
+  --ink:#141a33; --ink-soft:#555b73; --line:#DDE3F2; --bg:#F6F8FD; --card:#fff;
+  --shadow:0 1px 2px rgba(11,31,71,.06),0 10px 30px rgba(11,31,71,.08);
+  --accent:var(--royal);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:70px;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif;font-size:16.5px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+a{color:var(--royal-2);}
+a:focus-visible,button:focus-visible{outline:3px solid var(--neon);outline-offset:3px;}
+.progress{position:fixed;z-index:100;top:0;left:0;width:0;height:4px;background:var(--neon-grad);box-shadow:0 0 10px rgba(57,255,20,.55);}
+.banner{background:var(--royal-ink);color:#EEF3FC;border-bottom:3px solid var(--neon);text-align:center;padding:9px 16px;font-size:.82rem;line-height:1.45;letter-spacing:.02em;}
+.banner b{color:var(--neon-2);} .banner span{opacity:.8;}
+header.hero{position:relative;overflow:hidden;color:#fff;padding:52px 34px 54px;border-radius:0 0 30px 30px;
+  background:radial-gradient(circle at 92% 6%,rgba(57,255,20,.38) 0,transparent 42%),radial-gradient(circle at 4% 96%,rgba(124,255,91,.18) 0,transparent 40%),linear-gradient(135deg,#0B1F47 0%,#1F4FA8 52%,#3A6FD1 100%);}
+header.hero::after{content:attr(data-num);position:absolute;right:-10px;bottom:-70px;font-size:clamp(8rem,20vw,16rem);font-weight:900;line-height:1;letter-spacing:-.08em;color:rgba(255,255,255,.06);pointer-events:none;}
+.hero .inner{position:relative;max-width:1080px;margin:0 auto;display:flex;gap:22px;align-items:flex-start;}
+.hero .logo{width:74px;height:74px;border-radius:50%;background:#fff;padding:3px;flex:none;box-shadow:0 8px 24px rgba(0,0,0,.25);}
+.hero .txt{flex:1;min-width:0;}
+.crumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.8rem;font-weight:700;margin-bottom:14px;}
+.crumbs a{color:#C9FFB8;text-decoration:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);padding:5px 12px;border-radius:999px;}
+.crumbs a:hover{background:rgba(255,255,255,.2);}
+.eyebrow{display:inline-block;color:#C9FFB8;font-weight:800;font-size:.74rem;letter-spacing:1.3px;text-transform:uppercase;}
+.hero h1{font-size:clamp(2rem,4.6vw,3.2rem);line-height:1.08;margin:10px 0 10px;letter-spacing:-1px;font-weight:850;}
+.hero h1 em{font-style:normal;color:var(--neon-2);}
+.hero p{max-width:72ch;color:#DDE3FB;font-size:1.05rem;margin:0 0 18px;}
+.hchips{display:flex;flex-wrap:wrap;gap:9px;}
+.hchips span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:.8rem;font-weight:700;}
+nav.top{position:sticky;top:0;z-index:50;background:rgba(11,31,71,.97);border-bottom:2px solid var(--neon);box-shadow:0 8px 22px rgba(11,31,71,.2);}
+nav.top .in{max-width:1080px;margin:0 auto;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none;padding:0 12px;}
+nav.top .in::-webkit-scrollbar{display:none;}
+nav.top a{flex:0 0 auto;color:#DDE3FB;text-decoration:none;padding:14px 12px;font-size:.78rem;font-weight:700;border-bottom:3px solid transparent;white-space:nowrap;}
+nav.top a:hover,nav.top a.active{color:var(--neon-2);border-bottom-color:var(--neon);}
+nav.top a.home{color:#C9FFB8;border-right:1px solid rgba(255,255,255,.18);margin-right:4px;}
+main{max-width:1080px;margin:30px auto 80px;padding:0 20px;}
+section.ch{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--royal);border-radius:18px;box-shadow:var(--shadow);padding:clamp(22px,4vw,40px);margin:0 0 28px;}
+section.ch.accent{border-top-color:var(--neon);}
+h2{color:var(--royal);font-size:clamp(1.5rem,3vw,2.05rem);line-height:1.15;margin:0 0 6px;letter-spacing:-.4px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;}
+h2 .num{font-size:.8em;color:var(--neon-ink);font-weight:900;}
+h3{color:var(--royal-2);font-size:1.15rem;margin:26px 0 8px;}
+p{margin:8px 0 12px;}
+.lead{font-size:1.05rem;color:#3a4160;}
+.callout{margin:16px 0;padding:14px 18px;border-left:5px solid var(--neon);background:var(--neon-soft);border-radius:0 12px 12px 0;}
+.callout.blue{border-color:var(--royal-3);background:var(--royal-pale);}
+.callout .label{display:block;color:var(--royal);font-weight:900;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;}
+.tw{overflow-x:auto;}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:12px 0;font-size:.9rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+th{background:var(--royal);color:#fff;padding:10px 12px;text-align:left;line-height:1.3;}
+td{padding:9px 12px;vertical-align:top;border-top:1px solid var(--line);border-right:1px solid var(--line);background:#fff;}
+td:last-child,th:last-child{border-right:0;}
+tbody tr:nth-child(even) td{background:#F6F7FD;}
+td.c,th.c{text-align:center;}
+.tag{font-size:.64rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap;}
+.tag.analyze{background:var(--royal-soft);color:var(--royal-ink);border:1px solid var(--royal-line);}
+.tag.evaluate{background:var(--neon-soft);color:var(--neon-ink);border:1px solid var(--neon-line);}
+.tag.create{background:var(--royal);color:#C9FFB8;}
+.tag.pts{background:#fff;color:var(--ink-soft);border:1px solid var(--line);}
+.data{display:inline-block;background:var(--royal-soft);color:var(--royal-ink);padding:2px 8px;border-radius:6px;font-size:.9em;margin:2px 2px 2px 0;}
+.terms{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;padding:0;list-style:none;}
+.terms li{font-size:.74rem;font-weight:700;color:var(--neon-ink);background:var(--neon-soft);border:1px solid var(--neon-line);border-radius:7px;padding:3px 9px;}
+figure{margin:20px 0 8px;padding:0;}
+figure svg{width:100%;height:auto;display:block;background:var(--royal-pale);border:1px solid var(--royal-line);border-radius:12px;}
+figcaption{font-size:.9rem;color:var(--ink-soft);margin-top:8px;}
+figcaption b{color:var(--royal);}
+.prob{margin:18px 0;border:1px solid var(--royal-line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:var(--shadow);}
+.prob .head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--royal-pale);border-bottom:1px solid var(--royal-line);padding:10px 16px;}
+.prob .head .n{font-weight:900;color:var(--royal);font-size:1rem;}
+.prob .head .t{font-weight:800;color:var(--royal-ink);flex:1;}
+.prob .body{padding:14px 18px 6px;}
+details.ans{margin:0 18px 16px;border:1px solid var(--neon-line);border-radius:12px;background:#F5FFF1;}
+details.ans summary{cursor:pointer;padding:11px 16px 11px 48px;font-weight:800;color:var(--neon-ink);list-style:none;position:relative;}
+details.ans summary::-webkit-details-marker{display:none;}
+details.ans summary::before{content:"▸";position:absolute;left:16px;top:9px;width:22px;height:22px;border-radius:50%;background:var(--neon);color:#06250A;display:grid;place-items:center;font-size:.8rem;}
+details.ans[open] summary::before{content:"▾";background:var(--royal);color:#fff;}
+details.ans .a{padding:0 18px 16px 18px;color:#2f3650;border-top:1px dashed var(--neon-line);padding-top:12px;}
+details.ans .a p{margin:6px 0 10px;}
+.final{display:inline-block;background:var(--neon-soft);color:var(--neon-ink);font-weight:800;padding:3px 10px;border-radius:8px;margin:4px 0;}
+.why{margin-top:10px;padding:10px 14px;background:var(--royal-pale);border-left:4px solid var(--royal-3);border-radius:0 10px 10px 0;font-size:.92rem;}
+.why b{color:var(--royal);}
+.eq{display:block;text-align:center;margin:10px auto;padding:10px 14px;background:var(--royal-pale);border:1px solid var(--royal-line);border-radius:12px;font-family:"Cambria Math",Cambria,Georgia,serif;font-size:1.05rem;color:var(--royal-ink);overflow-x:auto;}
+ul.checks{list-style:none;padding:0;margin:8px 0;}
+.checks li{position:relative;padding:5px 0 5px 28px;}
+.checks li::before{content:"✓";position:absolute;left:0;top:6px;width:19px;height:19px;display:grid;place-items:center;border-radius:50%;background:var(--royal);color:#C9FFB8;font-size:.68rem;font-weight:900;}
+dl.plan{margin:6px 0 0;display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;font-size:.95rem;}
+dl.plan dt{font-weight:800;color:var(--royal);} dl.plan dd{margin:0;}
+.chnav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:8px;}
+.chnav a{text-decoration:none;font-weight:800;padding:12px 18px;border-radius:12px;background:var(--royal-soft);color:var(--royal-ink);}
+.chnav a.next{background:var(--neon-grad);color:#06250A;}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;align-items:center;}
+.btn{display:inline-block;border:0;border-radius:11px;background:var(--neon-grad);color:#06250A;font-weight:800;padding:10px 18px;cursor:pointer;font-size:.9rem;box-shadow:0 8px 22px rgba(57,255,20,.3);text-decoration:none;font-family:inherit;}
+.btn.ghost{background:var(--royal-soft);color:var(--royal-ink);box-shadow:none;}
+footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--ink-soft);font-size:.84rem;}
+.backtop{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border:0;border-radius:50%;background:var(--neon);color:#06250A;font-size:1.2rem;font-weight:900;box-shadow:0 10px 24px rgba(11,31,71,.25);cursor:pointer;opacity:0;transform:translateY(10px);transition:.25s;}
+.backtop.show{opacity:1;transform:none;}
+/* MCQ */
+.q{margin:14px 0;border:1px solid var(--royal-line);border-radius:14px;background:#fff;box-shadow:var(--shadow);overflow:hidden;}
+.q .head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--royal-pale);border-bottom:1px solid var(--royal-line);padding:9px 16px;}
+.q .head .n{font-weight:900;color:var(--royal);}
+.q .head .topic{font-weight:700;color:var(--royal-ink);flex:1;font-size:.9rem;}
+.q .stem{padding:14px 18px 6px;}
+.q .stem p{margin:0 0 8px;}
+.opts{padding:0 18px 8px;display:grid;gap:6px;}
+.opts label{display:flex;gap:10px;align-items:flex-start;padding:8px 12px;border:1px solid var(--line);border-radius:10px;cursor:pointer;background:#fff;}
+.opts label:hover{background:var(--royal-pale);}
+.opts input{margin-top:5px;accent-color:var(--neon-ink);}
+.opts b{color:var(--royal);min-width:18px;}
+.q.right{border-color:#9fd4b6;} .q.right .head{background:var(--ok-bg);}
+.q.wrong{border-color:#e6a9b1;} .q.wrong .head{background:var(--no-bg);}
+.q.wrong .opts label.correct{border-color:#9fd4b6;background:#f3fbf6;}
+.q.wrong .opts label.chosen{border-color:#e6a9b1;background:#fff5f6;}
+#score{font-weight:800;color:var(--royal);margin-left:12px;}
+.sign{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:22px;}
+.sign div{border-top:2px solid var(--royal);padding-top:8px;font-size:.92rem;} .sign .role{color:var(--ink-soft);font-size:.8rem;}
+@media (max-width:700px){.hero .inner{flex-direction:column;} .hero .logo{width:60px;height:60px;} .sign{grid-template-columns:1fr;} dl.plan{grid-template-columns:1fr;gap:2px 0;} dl.plan dd{margin-bottom:8px;}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;} .backtop{transition:none;}}
+@media print{.progress,nav.top,.backtop,.btnrow{display:none!important;} body{background:#fff;font-size:11pt;} header.hero{border-radius:0;} section.ch,.prob,.q{box-shadow:none;break-inside:avoid;} details.ans .a{display:block;}}
+</style>
+</head>
+<body>
+<div class="banner">🎓 <b>ASTBIO 201 · Astrobiology</b> &nbsp;—&nbsp; a class of <b>Dr.&nbsp;Ryan&nbsp;Manuel&nbsp;D.&nbsp;Guido</b><span>&nbsp;·&nbsp; Rizal Technological University</span></div>
+<div class="progress" id="progress"></div>
+<header class="hero" data-num="§"><div class="inner">
+  <img class="logo" src="assets/rtu-logo.jpg" alt="Rizal Technological University seal">
+  <div class="txt">
+  <div class="crumbs"><a href="index.html">⌂ Course Home</a><a href="chapters/ch01.html">📖 Week 1 Lecture</a></div>
+  <span class="eyebrow">Rizal Technological University · College of Arts and Sciences · Department of Earth and Space Sciences</span>
+  <h1>Outcomes-Based Course Syllabus · <em>ASTBIO 201 Astrobiology</em></h1>
+  <p>Bachelor of Science in Astronomy. Faculty-in-charge: Dr. Ryan Manuel D. Guido. 1st Semester, AY 2026-2027. Revision No. 1, prepared 21 August 2026.</p>
+  <div class="hchips"><span>📚 15 weeks · 3 terms</span><span>🎯 8 course outcomes</span><span>📊 5 program outcomes</span><span>🖨️ Print-ready</span></div>
+  </div>
+</div></header>
+<nav class="top" aria-label="Syllabus sections"><div class="in">
+  <a href="index.html" class="home">⌂ Home</a>
+  <a href="#info">Course</a><a href="#vmv">VMPO</a><a href="#po">POs</a><a href="#co">COs</a><a href="#plan">Teaching plan</a><a href="#grade">Outputs &amp; grading</a><a href="#refs">References</a><a href="#pol">Policies</a><a href="#cqi">CQI</a><a href="#sign">Committee</a>
+</div></nav>
+<main>
+<section class="ch accent" id="info">
+  <h2><span class="num">§</span>Course information</h2>
+  <div class="tw"><table>
+    <tr><th>Course code</th><td>ASTBIO 201 (Proposed)</td><th>Course title</th><td>Astrobiology</td><th>Credit units</th><td>3</td></tr>
+    <tr><th>Prerequisite</th><td>None; senior high school biology and physics are recommended</td><th>Corequisite</th><td>None</td><th>Contact hours</th><td>3 hours/week (45 hours)</td></tr>
+    <tr><th>Semester</th><td>1st Semester</td><th>Academic year</th><td>2026-2027</td><th>Faculty-in-charge</th><td>Dr. Ryan Manuel D. Guido</td></tr>
+  </table></div>
+  <div class="callout"><span class="label">Course description</span>This course develops the biological knowledge needed to study life in the universe. Term 1 introduces general biology, cell structure and function, genetics, evolution, taxonomy, microorganisms, botany, zoology, and ecology. Term 2 examines human anatomy and physiology, homeostasis, biophysics, and the physics of the human body. Term 3 focuses on space life science and astrobiology, including origins of life, planetary habitability, extremophiles, biosignatures, life-detection strategies, biological responses to space environments, closed ecosystems, and planetary protection.</div>
+  <div class="btnrow"><button class="btn" onclick="window.print()">Print / PDF</button></div>
+</section>
+<section class="ch" id="vmv">
+  <h2><span class="num">I</span>University vision, mission, philosophy, and core values</h2>
+  <div class="tw"><table>
+    <tr><th style="width:24%">Vision</th><td>A smart and transnational university. <i>Isang smart at transnasyonal na unibersidad.</i></td></tr>
+    <tr><th>Mission</th><td>To produce competent and socially responsible professionals through innovative instructions, high-impact research, and sustainable extension services responsive to the diverse needs of glocal communities.</td></tr>
+    <tr><th>Philosophy</th><td>The Rizal Technological University believes in nurturing the creative potentials of Filipinos to excel in a dynamic world order and advocates commitment to global peace and sustainable development along with sense of moral responsibility and cultural patronage.</td></tr>
+    <tr><th>Core values</th><td>Integrity, Nationalism, Inclusivity, Excellence, Innovation</td></tr>
+    <tr><th>College goal</th><td>Advance scientific literacy, inquiry, and innovation through interdisciplinary education and research responsive to national and global needs.</td></tr>
+    <tr><th>College objectives</th><td>Develop strong foundations in the natural and quantitative sciences; strengthen research and data-analysis competencies; and promote ethical, inclusive, and sustainable scientific practice.</td></tr>
+    <tr><th>Program educational objectives</th><td>Within three to five years after graduation, graduates are expected to apply astronomy and space-science knowledge in professional or research settings, communicate evidence responsibly, collaborate across disciplines, and pursue continuing professional development.</td></tr>
+  </table></div>
+</section>
+<section class="ch" id="po">
+  <h2><span class="num">II</span>Program outcomes and performance indicators</h2>
+  <div class="tw"><table><thead><tr><th style="width:36%">Program outcome</th><th>Performance indicator</th></tr></thead><tbody><tr><td><b>PO1</b>. Scientific knowledge</td><td>Integrates relevant concepts from astronomy, physics, biology, Earth science, and space science when explaining natural phenomena.</td></tr><tr><td><b>PO2</b>. Scientific inquiry and data analysis</td><td>Formulates investigable questions, selects appropriate methods, analyzes evidence, and evaluates uncertainty.</td></tr><tr><td><b>PO3</b>. Quantitative and systems reasoning</td><td>Uses mathematical, computational, and systems models to interpret interacting processes and solve scientific problems.</td></tr><tr><td><b>PO4</b>. Communication and collaboration</td><td>Communicates scientific findings clearly and contributes responsibly to individual and team-based work.</td></tr><tr><td><b>PO5</b>. Ethics, sustainability, and lifelong learning</td><td>Applies ethical, inclusive, sustainable, and planetary-protection principles while pursuing continuing learning.</td></tr></tbody></table></div>
+</section>
+<section class="ch" id="co">
+  <h2><span class="num">III</span>Course outcomes</h2>
+  <p class="lead">Legend: I — introduced; E — enabled; D — demonstrated.</p>
+  <div class="tw"><table><thead><tr><th style="width:50%">Course outcome</th><th class="c">PO1</th><th class="c">PO2</th><th class="c">PO3</th><th class="c">PO4</th><th class="c">PO5</th></tr></thead><tbody><tr><td><b>CO1</b>. Explain the chemical, cellular, genetic, metabolic, evolutionary, and ecological foundations of life.</td><td class='c'>E</td><td class='c'>I</td><td class='c'>I</td><td class='c'>—</td><td class='c'>I</td></tr><tr><td><b>CO2</b>. Apply taxonomy, systematics, and phylogeny to classify organisms and interpret biological diversity.</td><td class='c'>E</td><td class='c'>E</td><td class='c'>I</td><td class='c'>—</td><td class='c'>I</td></tr><tr><td><b>CO3</b>. Compare the organization, reproduction, physiology, and adaptations of representative plants, animals, and microorganisms.</td><td class='c'>E</td><td class='c'>E</td><td class='c'>I</td><td class='c'>I</td><td class='c'>E</td></tr><tr><td><b>CO4</b>. Describe the organization and coordinated functions of the major human organ systems using appropriate anatomical and physiological terminology.</td><td class='c'>E</td><td class='c'>I</td><td class='c'>E</td><td class='c'>—</td><td class='c'>E</td></tr><tr><td><b>CO5</b>. Apply biophysical principles and quantitative reasoning to human movement, circulation, respiration, neural signaling, sensory function, thermoregulation, and radiation exposure.</td><td class='c'>E</td><td class='c'>E</td><td class='c'>E</td><td class='c'>—</td><td class='c'>E</td></tr><tr><td><b>CO6</b>. Explain major astrobiological concepts involving the origin and evolution of life, habitability, extremophiles, biosignatures, and planetary environments.</td><td class='c'>E</td><td class='c'>E</td><td class='c'>E</td><td class='c'>I</td><td class='c'>E</td></tr><tr><td><b>CO7</b>. Evaluate evidence and methods used in life detection, space biology, closed ecosystems, and planetary protection while recognizing uncertainty and false positives.</td><td class='c'>E</td><td class='c'>D</td><td class='c'>E</td><td class='c'>E</td><td class='c'>D</td></tr><tr><td><b>CO8</b>. Design and communicate an evidence-based astrobiological investigation or habitability assessment for a selected extraterrestrial environment.</td><td class='c'>D</td><td class='c'>D</td><td class='c'>D</td><td class='c'>D</td><td class='c'>D</td></tr></tbody></table></div>
+</section>
+<section class="ch" id="plan">
+  <h2><span class="num">IV</span>Teaching and learning plan</h2>
+  <p class="lead">Source: Handbook on Typology, Outcomes-Based Education, and Institutional Sustainability Assessment; CHED PSGs. Chapter titles open the lecture page; assessment cells open the reinforcement exercises.</p>
+  <div class="tw"><table>
+    <thead><tr><th class="c">Week</th><th>Learning outcomes</th><th>Topics</th><th>Teaching-learning activities</th><th>Resources</th><th>Assessment tasks and tools</th><th>Evaluation methods</th><th>Output and requirements</th></tr></thead>
+    <tbody><tr>
+  <td class="c"><b>1</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 1</span></td>
+  <td>Explain the characteristics and levels of life and relate the chemistry of life to energy use and homeostasis.</td>
+  <td><b><a href="chapters/ch01.html">Overview of Biological Science and the Chemistry of Life</a></b><br>Scientific inquiry; characteristics and levels of life; atoms, water, macromolecules, energy, homeostasis, and introductory ecology.</td>
+  <td>Interactive lecture; life-criteria concept mapping; biomolecule and homeostasis analysis.</td><td>OpenStax Biology 2e; instructor slides; concept-map template.</td>
+  <td>Diagnostic task; concept map; short concept check.<br><a href="exercises/ch01-exercises.html">Reinforcement exercises</a></td>
+  <td>Analytic rubric; answer key; feedback notes.</td><td>Portfolio Entry 1: Life and biological organization map.</td>
+</tr><tr>
+  <td class="c"><b>2</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 1</span></td>
+  <td>Compare prokaryotic and eukaryotic cells and model membrane transport, metabolism, and cell division.</td>
+  <td><b><a href="chapters/ch02.html">Cell Structure and Function</a></b><br>Organelles; membranes and transport; enzymes; respiration and photosynthesis; cell cycle, mitosis, and meiosis.</td>
+  <td>Virtual microscopy; cell-model construction; transport and metabolism simulation.</td><td>OpenStax Biology 2e; virtual-cell or microscopy resources.</td>
+  <td>Cell comparison; transport model; quiz.<br><a href="exercises/ch02-exercises.html">Reinforcement exercises</a></td>
+  <td>Scoring guide; item analysis; corrective feedback.</td><td>Portfolio Entry 2: Annotated cell and transport model.</td>
+</tr><tr>
+  <td class="c"><b>3</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 1</span></td>
+  <td>Apply genetic, evolutionary, taxonomic, and phylogenetic reasoning to microorganisms and extremophiles.</td>
+  <td><b><a href="chapters/ch03.html">Genetics, Evolution, Taxonomy, and Microorganisms</a></b><br>DNA and gene expression; inheritance; mutation; natural selection; speciation; nomenclature; phylogeny; domains of life; extremophiles.</td>
+  <td>Guided cladogram construction; taxonomic-key exercise; extremophile case analysis.</td><td>OpenStax Biology 2e; OpenStax Microbiology; taxonomic keys.</td>
+  <td>Cladogram; classification exercise; case analysis.<br><a href="exercises/ch03-exercises.html">Reinforcement exercises</a></td>
+  <td>Rubric; accuracy checklist; peer feedback.</td><td>Portfolio Entry 3: Phylogeny and extremophile analysis.</td>
+</tr><tr>
+  <td class="c"><b>4</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 1</span></td>
+  <td>Analyze plant structure, transport, reproduction, photosynthesis, tropisms, and ecological adaptations.</td>
+  <td><b><a href="chapters/ch04.html">Botany</a></b><br>Plant diversity; tissues and organs; roots, stems, leaves; transport; photosynthesis; reproduction; tropisms; terrestrial adaptations.</td>
+  <td>Specimen classification or virtual herbarium; stomatal or phototropism investigation.</td><td>OpenStax Biology 2e; plant specimens or virtual herbarium; simulation.</td>
+  <td>Plant classification; investigation report.<br><a href="exercises/ch04-exercises.html">Reinforcement exercises</a></td>
+  <td>Investigation rubric; observation checklist.</td><td>Portfolio Entry 4: Plant diversity and physiology brief.</td>
+</tr><tr>
+  <td class="c"><b>5</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 1</span></td>
+  <td>Compare major animal groups, body plans, organ systems, reproductive strategies, behaviors, and adaptations.</td>
+  <td><b><a href="chapters/ch05.html">Zoology and Comparative Organismal Biology</a></b><br>Invertebrates and vertebrates; comparative organ systems; reproduction; behavior; adaptations; ecological relationships.</td>
+  <td>Dichotomous-key activity; comparative animal-system matrix; term synthesis.</td><td>OpenStax Biology 2e; zoology references; phylogenetic diagrams.</td>
+  <td>Comparative matrix; Term 1 examination.<br><a href="exercises/ch05-exercises.html">Reinforcement exercises</a></td>
+  <td>Matrix rubric; examination item analysis.</td><td>Completed Term 1 portfolio and examination.</td>
+</tr><tr>
+  <td class="c"><b>6</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 2</span></td>
+  <td>Use anatomical terminology and explain tissue organization, homeostasis, integumentary functions, and thermoregulation.</td>
+  <td><b><a href="chapters/ch06.html">Human Anatomy and Physiology I</a></b><br>Anatomical terminology; body cavities; tissue classes; organ systems; feedback control; integumentary system.</td>
+  <td>Virtual anatomy orientation; tissue identification; feedback-loop mapping.</td><td>OpenStax Anatomy and Physiology 2e; virtual anatomy resources.</td>
+  <td>Anatomy worksheet; homeostasis map.<br><a href="exercises/ch06-exercises.html">Reinforcement exercises</a></td>
+  <td>Practical checklist; concept-map rubric.</td><td>A&amp;P Portfolio Entry 1: Organization and homeostasis.</td>
+</tr><tr>
+  <td class="c"><b>7</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 2</span></td>
+  <td>Explain skeletal and muscular organization and apply force, lever, work, and power concepts to human movement.</td>
+  <td><b><a href="chapters/ch07.html">Musculoskeletal Systems and Biomechanics</a></b><br>Bone, joints, skeletal muscle, movement, posture, levers, force, work, power, and loading.</td>
+  <td>Joint-lever analysis; movement modeling; quantitative problem solving.</td><td>OpenStax A&amp;P 2e; OpenStax College Physics 2e; joint models.</td>
+  <td>Musculoskeletal practical; biomechanics problems.<br><a href="exercises/ch07-exercises.html">Reinforcement exercises</a></td>
+  <td>Practical rubric; worked-solution key.</td><td>A&amp;P Portfolio Entry 2 and Biophysics Set A.</td>
+</tr><tr>
+  <td class="c"><b>8</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 2</span></td>
+  <td>Analyze nervous, sensory, and endocrine regulation using neural signaling, bioelectricity, optics, and acoustics.</td>
+  <td><b><a href="chapters/ch08.html">Nervous, Sensory, and Endocrine Systems</a></b><br>CNS/PNS; neural signals; vision; hearing; balance; hormones; stress; membrane potentials; optics; sound.</td>
+  <td>Safe reaction-time or sensory activity; data interpretation; neural-pathway mapping.</td><td>OpenStax A&amp;P 2e; sensory datasets; simulation tools.</td>
+  <td>Data interpretation; pathway map; problem set.<br><a href="exercises/ch08-exercises.html">Reinforcement exercises</a></td>
+  <td>Data-analysis rubric; answer key.</td><td>A&amp;P Portfolio Entry 3 and Biophysics Set B.</td>
+</tr><tr>
+  <td class="c"><b>9</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 2</span></td>
+  <td>Trace cardiovascular, lymphatic, immune, and respiratory functions and apply fluid-flow, diffusion, and gas-law principles.</td>
+  <td><b><a href="chapters/ch09.html">Cardiopulmonary and Immune Systems</a></b><br>Heart; blood; circulation; immunity; ventilation; gas exchange; pressure-flow relations; diffusion; gas laws.</td>
+  <td>Cardiopulmonary data analysis; pressure-flow or gas-exchange case.</td><td>OpenStax A&amp;P 2e; cardiopulmonary datasets; physics reference.</td>
+  <td>Case analysis; graph interpretation; concept check.<br><a href="exercises/ch09-exercises.html">Reinforcement exercises</a></td>
+  <td>Case rubric; graph-analysis checklist.</td><td>A&amp;P Portfolio Entry 4 and biophysics case.</td>
+</tr><tr>
+  <td class="c"><b>10</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 2</span></td>
+  <td>Integrate digestive, metabolic, urinary, reproductive, and developmental systems through homeostatic regulation.</td>
+  <td><b><a href="chapters/ch10.html">Integrated Homeostasis</a></b><br>Digestion; nutrition; metabolism; renal function; osmosis; fluid-electrolyte balance; reproduction; development.</td>
+  <td>Fluid-balance case; integrated organ-system map; term synthesis.</td><td>OpenStax A&amp;P 2e; metabolism and renal-system diagrams.</td>
+  <td>Homeostasis map; Term 2 examination.<br><a href="exercises/ch10-exercises.html">Reinforcement exercises</a></td>
+  <td>Systems-map rubric; examination item analysis.</td><td>Completed Term 2 portfolio and examination.</td>
+</tr><tr>
+  <td class="c"><b>11</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 3</span></td>
+  <td>Explain astrobiology&#x27;s core questions and evaluate scientific hypotheses concerning the origin and early evolution of life.</td>
+  <td><b><a href="chapters/ch11.html">Foundations of Astrobiology and Origins of Life</a></b><br>Cosmic elements; prebiotic chemistry; early Earth; origin-of-life hypotheses; extremophiles; habitability.</td>
+  <td>Evidence-ranking exercise; origin-of-life debate; operational definition of habitability.</td><td>NASA Astrobiology; instructor-selected peer-reviewed sources.</td>
+  <td>Evidence brief; concept check.<br><a href="exercises/ch11-exercises.html">Reinforcement exercises</a></td>
+  <td>Evidence-quality rubric; source checklist.</td><td>Astrobiology Notebook Entry 1: Origins and habitability.</td>
+</tr><tr>
+  <td class="c"><b>12</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 3</span></td>
+  <td>Evaluate the habitability of planetary environments using solvent, energy, chemistry, stability, and time criteria.</td>
+  <td><b><a href="chapters/ch12.html">Planetary Habitability and Comparative Worlds</a></b><br>Habitable zones; atmospheres and geology; Mars; Venus; icy moons; Titan; exoplanets; Earth analogues.</td>
+  <td>Comparative-world analysis; habitability-matrix workshop.</td><td>NASA Solar System resources; exoplanet data; planetary datasets.</td>
+  <td>Habitability matrix; data interpretation.<br><a href="exercises/ch12-exercises.html">Reinforcement exercises</a></td>
+  <td>Matrix rubric; evidence checklist.</td><td>Astrobiology Notebook Entry 2: Comparative habitability.</td>
+</tr><tr>
+  <td class="c"><b>13</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 3</span></td>
+  <td>Interpret potential biosignatures and design a life-detection sequence that addresses controls, contamination, and ambiguity.</td>
+  <td><b><a href="chapters/ch13.html">Biosignatures and Life-Detection Science</a></b><br>Molecular, chemical, morphological, isotopic, and atmospheric signatures; technosignatures; instruments; false positives and negatives.</td>
+  <td>Spectral or mission-data interpretation; staged life-detection design.</td><td>NASA Astrobiology resources; sample spectra or mission datasets.</td>
+  <td>Life-detection case study; method design.<br><a href="exercises/ch13-exercises.html">Reinforcement exercises</a></td>
+  <td>Case-study rubric; validity checklist.</td><td>Astrobiology Case Study: Biosignature evaluation.</td>
+</tr><tr>
+  <td class="c"><b>14</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 3</span></td>
+  <td>Evaluate how altered gravity, radiation, and closed environments affect microbes, plants, animals, and humans.</td>
+  <td><b><a href="chapters/ch14.html">Space Life Science: Organisms and Humans Beyond Earth</a></b><br>Model organisms; space crops; microbiomes; altered gravity; radiation; closed ecosystems; human hazards and countermeasures.</td>
+  <td>Closed-biosphere model or space-biology experiment design; capstone workshop and peer review.</td><td>NASA Biological and Physical Sciences; NASA human-spaceflight resources.</td>
+  <td>Experiment design; capstone draft; peer review.<br><a href="exercises/ch14-exercises.html">Reinforcement exercises</a></td>
+  <td>Design rubric; peer-review protocol.</td><td>Capstone draft: Investigation and habitability assessment.</td>
+</tr><tr>
+  <td class="c"><b>15</b><br><span style="font-size:.78rem;color:var(--ink-soft)">Term 3</span></td>
+  <td>Apply planetary-protection and ethical principles and defend an evidence-based astrobiological investigation.</td>
+  <td><b><a href="chapters/ch15.html">Planetary Protection, Ethics, and the Future of Life in Space</a></b><br>Forward/backward contamination; sample return; research and settlement ethics; uncertainty; course integration.</td>
+  <td>Capstone presentation and defense; course synthesis; reflective discussion.</td><td>NASA planetary-protection resources; course evidence portfolio.</td>
+  <td>Capstone; Term 3 examination; final reflection.<br><a href="exercises/ch15-exercises.html">Reinforcement exercises</a></td>
+  <td>Capstone rubric; oral-defense rubric; item analysis.</td><td>Final capstone, peer review, and integrative assessment.</td>
+</tr></tbody></table></div>
+</section>
+<section class="ch" id="grade">
+  <h2><span class="num">V</span>Major course outputs and grading system</h2>
+  <h3>Major course outputs</h3><ul class="checks"><li><b>Term 1 portfolio.</b> Biological foundations, cell biology, taxonomy, botany, and zoology outputs.</li><li><b>Term 2 portfolio.</b> Human anatomy and physiology system maps, practical tasks, and biophysics problem sets.</li><li><b>Term 3 case study.</b> Habitability, biosignature, or life-detection evidence analysis.</li><li><b>Astrobiology capstone.</b> A 6-8 page investigation or habitability assessment, matrix, diagram, presentation, and individual reflection.</li><li><b>Major examinations.</b> Individual Term 1, Term 2, and Term 3 integrative assessments.</li></ul>
+  <h3>Grading system</h3>
+  <div class="tw"><table style="max-width:460px"><thead><tr><th>Component</th><th class="c">Weight</th></tr></thead><tbody><tr><td>Coursework</td><td class='c'>20%</td></tr><tr><td>Attendance</td><td class='c'>10%</td></tr><tr><td>Participation</td><td class='c'>20%</td></tr><tr><td>Major examinations</td><td class='c'>35%</td></tr><tr><td>Project/s</td><td class='c'>15%</td></tr><tr><th>Total</th><th class="c">100%</th></tr></tbody></table></div>
+  <div class="callout"><span class="label">Examinations</span>Major examinations: Term 1 - 10%; Term 2 - 10%; Term 3/Final - 15%.</div>
+</section>
+<section class="ch" id="refs">
+  <h2><span class="num">VI</span>References and open educational resources</h2>
+  <h3>Core references (OERs)</h3><ul class="checks"><li><b>OpenStax Biology 2e</b> — Cells, genetics, evolution, biodiversity, botany, zoology, and ecology.</li><li><b>OpenStax Anatomy and Physiology 2e</b> — Human anatomy, physiology, and homeostasis.</li><li><b>OpenStax Microbiology</b> — Microbial diversity, metabolism, genetics, and extremophiles.</li><li><b>OpenStax College Physics 2e</b> — Mechanics, fluids, gases, electricity, sound, optics, and radiation.</li></ul>
+  <h3>Other suggested readings</h3><ul class="checks"><li><b>NASA Astrobiology Program</b> — Astrobiology&#x27;s core questions and current scientific context.</li><li><b>NASA: The Human Body in Space</b> — Body-system responses to spaceflight.</li><li><b>NASA: Five Hazards of Human Spaceflight</b> — Spaceflight risk framework.</li><li><b>NASA Space Crops</b> — Plant biology and bioregenerative support beyond Earth.</li></ul>
+</section>
+<section class="ch" id="pol">
+  <h2><span class="num">VII</span>Class policies</h2>
+  <h3>Preparation and attendance</h3><p>Students are expected to complete assigned readings and participate in scheduled learning activities. Attendance and make-up work follow University policy.</p><h3>Scientific evidence and integrity</h3><p>Claims must be supported by credible sources. Students must distinguish data, models, hypotheses, and speculation and must not fabricate references or evidence.</p><h3>Generative AI</h3><p>AI tools may be used only as permitted by the instructor and must be disclosed. Students remain responsible for accuracy, originality, and source verification.</p><h3>Safety and privacy</h3><p>Activities are educational and non-diagnostic. Self-measurement is optional; equivalent simulated data will be available. Personal health information must not be required or disclosed.</p><h3>Collaboration and accessibility</h3><p>Group work must identify individual contributions. Reasonable alternatives will be provided for activities involving vision, hearing, mobility, physiological measurement, or public presentation.</p>
+  <h3>Consultation schedule</h3>
+  <div class="tw"><table><thead><tr><th>Day</th><th class='c'>Monday</th><th class='c'>Tuesday</th><th class='c'>Wednesday</th><th class='c'>Thursday</th><th class='c'>Friday</th><th class='c'>Saturday</th></tr></thead><tbody><tr><th>Time</th><td class='c'>By appointment</td><td class='c'>By appointment</td><td class='c'>By appointment</td><td class='c'>By appointment</td><td class='c'>By appointment</td><td class='c'>By appointment</td></tr></tbody></table></div>
+</section>
+<section class="ch" id="cqi">
+  <h2><span class="num">VIII</span>Continuous quality improvement</h2>
+  <p>The following forms are available from the University Curriculum and Instruction Office (UCIO) for course review and monitoring:</p>
+  <ul class="checks"><li><b>RTU-OVPASA-UCIO-F018</b> — Syllabus Development and Revision Request Form</li><li><b>RTU-OVPASA-UCIO-F019</b> — Course Syllabus Acknowledgement Form</li><li><b>RTU-OVPASA-UCIO-F035</b> — Program Outcomes Assessment and Evaluation Matrix</li><li><b>RTU-OVPASA-UCIO-F036</b> — Stakeholder Consultation Survey Form</li></ul>
+</section>
+<section class="ch accent" id="sign">
+  <h2><span class="num">§</span>Syllabus committee</h2>
+  <div class="tw"><table><tr><th>Date created or revised</th><td>21 August 2026</td><th>Revision number</th><td>1</td><th>Effectivity date</th><td>1st Semester, AY 2026-2027</td></tr></table></div>
+  <div class="sign">
+    <div><b>DR. RYAN MANUEL D. GUIDO</b><br><span class="role">Prepared by: Faculty Member</span></div>
+    <div><b>&nbsp;</b><br><span class="role">Reviewed by: Chair, College Curriculum Review and Development Committee</span></div>
+    <div><b>&nbsp;</b><br><span class="role">Recommended for approval by: Program Chair / Department Head</span></div>
+    <div><b>&nbsp;</b><br><span class="role">Approved by: College Dean / Institute Director</span></div>
+  </div>
+  <div class="chnav" style="margin-top:22px"><a href="index.html">⌂ Course Home</a><a class="next" href="chapters/ch01.html">Start: Week 1 Lecture →</a></div>
+</section>
+</main>
+<footer><b>ASTBIO 201 · Astrobiology</b> — Outcomes-Based Course Syllabus. Department of Earth and Space Sciences, College of Arts and Sciences, Rizal Technological University. Faculty-in-charge: Dr. Ryan Manuel D. Guido, 1st Semester AY 2026-2027.</footer>
+<button class="backtop" id="backtop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<script>
+  const progress=document.getElementById('progress'), backtop=document.getElementById('backtop');
+  const links=[...document.querySelectorAll('nav.top a:not(.home)')], sections=[...document.querySelectorAll('main section')];
+  function update(){
+    const h=document.documentElement, max=h.scrollHeight-h.clientHeight;
+    progress.style.width=(max?100*h.scrollTop/max:0)+'%';
+    backtop.classList.toggle('show',h.scrollTop>500);
+    let current=sections[0]?.id;
+    for(const s of sections){ if(s.getBoundingClientRect().top<=90) current=s.id; }
+    links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));
+  }
+  addEventListener('scroll',update,{passive:true}); addEventListener('resize',update); update();
+  function toggleAll(open){ document.querySelectorAll('details.ans').forEach(d=>d.open=open); }
+</script>
+</body>
+</html>
